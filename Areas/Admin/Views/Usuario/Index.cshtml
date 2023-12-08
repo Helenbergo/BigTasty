@@ -1,0 +1,122 @@
+@model X.PagedList.PagedList<App.Models.Usuario>
+
+@{
+    ViewData["Title"] = "Cadastro";
+}
+
+<div class="container no-print">
+    <h1 style="font-family: fantasy;" class="fs-1">Cadastro</h1>
+
+    <p>
+        <a asp-action="Create" class="btn btn-dark">Criar novo</a>
+    </p>
+</div>
+
+<h1 class="only-print p-2 text-center bg-secondary text-white shadow rounded m-3"> Usuários cadastrados</h1>
+<p class="only-print p-2 text-center shadow rounded m-3"> Filtrado por: @ViewBag.txtFiltro
+    e ordenado por @ViewBag.Ordem</p>
+
+<form class="container d-flex align-items-center no-print mb-4" asp-action="Index" method="get">
+    <input type="text" name="txtFiltro" placeholder="Digite aqui o que procura" value="@ViewBag.txtFiltro"
+        class="form-control">
+    <button class="btn btn-secondary" type="submit">Buscar</i></button>
+    <select name="selOrdenacao" class="form-control mx-2">
+        <option value="Nome" selected="@((string)ViewBag.Ordem == "Nome")">Ordenar por nome</option>
+        <option value="Nome_desc" selected="@((string)ViewBag.Ordem == "Nome_desc")">Ordenar por nome descendente</option>
+        <option value="Login" selected="@((string)ViewBag.Ordem == "Login")">Ordenar por login</option>
+    </select>
+    <button class="btn btn-secondary" type="submit" name="botao" value="Relatorio"> Relatório</button>
+</form>
+
+<div class="container">
+    <table class="table table-hover table-striped">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model[0].Nome)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model[0].Login)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr class="no-print">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nome)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Login)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.UsuarioId"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" fill="currentColor" class="bi bi-pencil-square text-dark"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                                <path fill-rule="evenodd"
+                                    d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z" />
+                            </svg></a> |
+                        <a asp-action="Details" asp-route-id="@item.UsuarioId"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" fill="currentColor" class="bi bi-info-circle text-dark"
+                                viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                <path
+                                    d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                            </svg></a> |
+                        <a asp-action="Delete" asp-route-id="@item.UsuarioId"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" fill="currentColor" class="bi bi-trash text-danger"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z" />
+                                <path
+                                    d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z" />
+                            </svg></a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div class="d-flex justify-content-center no-print">
+    <ul class="pagination">
+        @{
+            string primeira = "";
+            string ultima = "";
+        }
+
+        @if (!Model.HasPreviousPage)
+            primeira = "disabled";
+
+        @if (!Model.HasNextPage)
+            ultima = "disabled";
+
+        <li class="page-item @primeira">
+            <a class="page-link" asp-route-pagina="1" asp-route-txtFiltro="@ViewData["txtFiltro"]">&lt;&lt;</a>
+        </li>
+        <li class="page-item @primeira">
+            <a class="page-link" asp-route-pagina="@(Model.PageNumber - 1)"
+                asp-route-txtFiltro="@ViewData["txtFiltro"]">&lt;</a>
+        </li>
+
+        @for (int i = 1; i <= Model.PageCount; i++)
+        {
+            <li class="page-item @(i == Model.PageNumber ? "active" : "")">
+                <a class="page-link" asp-route-pagina="@i" asp-route-txtFiltro="@ViewData["txtFiltro"]">@i</a>
+            </li>
+        }
+
+        <li class="page-item @ultima">
+            <a class="page-link" asp-route-pagina="@(Model.PageNumber + 1)"
+                asp-route-txtFiltro="@ViewData["txtFiltro"]">></a>
+        </li>
+        <li class="page-item @ultima">
+            <a class="page-link" asp-route-pagina="@Model.PageCount" asp-route-txtFiltro="@ViewData["txtFiltro"]">>></a>
+        </li>
+
+    </ul>
+</div>

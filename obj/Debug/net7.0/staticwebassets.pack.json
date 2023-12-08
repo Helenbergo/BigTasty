@@ -1,0 +1,345 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Projeto_Lanchonete.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Projeto_Lanchonete.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\Dados\\Dados.db",
+      "PackagePath": "staticwebassets\\Dados\\Dados.db"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\fotos\\8fa1eab8-92c5-4b2e-ab1f-6f3542ae23ddbanner1.png",
+      "PackagePath": "staticwebassets\\fotos\\8fa1eab8-92c5-4b2e-ab1f-6f3542ae23ddbanner1.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\fotos\\9ff165a0-f439-41f3-ad93-9ba0b95851dcbanner2.png",
+      "PackagePath": "staticwebassets\\fotos\\9ff165a0-f439-41f3-ad93-9ba0b95851dcbanner2.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\fotos\\bef533ca-a8e3-438c-b608-5817dc25eac3banner1.png",
+      "PackagePath": "staticwebassets\\fotos\\bef533ca-a8e3-438c-b608-5817dc25eac3banner1.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\fotos\\c76d469c-c792-416b-921a-4c237263212fbanner5.png",
+      "PackagePath": "staticwebassets\\fotos\\c76d469c-c792-416b-921a-4c237263212fbanner5.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\img\\Frame 28.jpg",
+      "PackagePath": "staticwebassets\\img\\Frame 28.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\img\\FundoCardapio.png",
+      "PackagePath": "staticwebassets\\img\\FundoCardapio.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\img\\FundoIndex.svg",
+      "PackagePath": "staticwebassets\\img\\FundoIndex.svg"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\img\\Group 45.jpg",
+      "PackagePath": "staticwebassets\\img\\Group 45.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\img\\Index.svg",
+      "PackagePath": "staticwebassets\\img\\Index.svg"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\img\\Logo.png",
+      "PackagePath": "staticwebassets\\img\\Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\img\\banner1.png",
+      "PackagePath": "staticwebassets\\img\\banner1.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\img\\banner2.png",
+      "PackagePath": "staticwebassets\\img\\banner2.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\img\\banner3.png",
+      "PackagePath": "staticwebassets\\img\\banner3.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\img\\banner4.png",
+      "PackagePath": "staticwebassets\\img\\banner4.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\img\\banner5.png",
+      "PackagePath": "staticwebassets\\img\\banner5.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\img\\fundo1.png",
+      "PackagePath": "staticwebassets\\img\\fundo1.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\img\\fundo2.png",
+      "PackagePath": "staticwebassets\\img\\fundo2.png"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\img\\images.jpg",
+      "PackagePath": "staticwebassets\\img\\images.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\img\\planoDeFundo.avif",
+      "PackagePath": "staticwebassets\\img\\planoDeFundo.avif"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aluno\\OneDrive - SESISENAISP - Escolas\\Curso dev\\2° Semestre\\Back-End\\Projeto_Lanchonete\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Projeto_Lanchonete.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Projeto_Lanchonete.props",
+      "PackagePath": "build\\Projeto_Lanchonete.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Projeto_Lanchonete.props",
+      "PackagePath": "buildMultiTargeting\\Projeto_Lanchonete.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Projeto_Lanchonete.props",
+      "PackagePath": "buildTransitive\\Projeto_Lanchonete.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,97 @@
+@model IEnumerable<App.Models.Banner>
+
+<div class="container no-print">
+    <h1 style="font-family: fantasy;" class="fs-1">Banners</h1>
+    <p>
+        <a asp-action="CriarBanner" class="btn btn-dark">Criar novo</a>
+    </p>
+</div>
+
+<div class="container">
+    
+    <table class="table">
+        <thead>
+            <tr>
+                <th> @Html.DisplayNameFor(model => model.Imagem) </th>
+                <th> @Html.DisplayNameFor(model => model.Titulo) </th>
+                <th> @Html.DisplayNameFor(model => model.Subtitulo) </th>
+                <th> @Html.DisplayNameFor(model => model.Link) </th>
+                <th> @Html.DisplayNameFor(model => model.Exibir) </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td><img src="~/fotos/@item.Imagem" alt="" style="width:100px"></td>
+                    <td> @Html.DisplayFor(modelItem => item.Titulo)</td>
+                    <td> @Html.DisplayFor(modelItem => item.Subtitulo) </td>
+                    <td> @Html.DisplayFor(modelItem => item.Link)</td>
+                    <td> @Html.DisplayFor(modelItem => item.Exibir) </td>
+                    <td>
+                        <a asp-action="EditarBanner" asp-route-id="@item.BannerId"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" fill="currentColor" class="bi bi-pencil-square text-dark"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                                <path fill-rule="evenodd"
+                                    d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z" />
+                            </svg></a> |
+                        <a asp-action="DeletarBanner" asp-route-id="@item.BannerId"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="16" height="16" fill="currentColor" class="bi bi-trash text-danger"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z" />
+                                <path
+                                    d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z" />
+                            </svg></a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <section id="meucarrossel" class="carousel carousel-dark slide mb-5" data-bs-ride="carousel">
+
+        <!-- Lista de Imagens - Banners -->
+        <div class="carousel-inner">
+            @{
+                string bannerAtivo = " active";
+            }
+            @foreach (var item in Model)
+            {
+                if (item.Exibir == true)
+                {
+                    <!-- Imagem 1 -->
+                    <div class="carousel-item @bannerAtivo" data-bs-interval="1000">
+                        @{
+                            bannerAtivo = "";
+                        }
+                        <img src="~/fotos/@item.Imagem" class="w-100 d-block">
+                        <div class="carousel-caption">
+                            <h4>@item.Titulo</h4>
+                            <p>@item.Subtitulo</p>
+                            @if (item.Link != null && item.Link != "")
+                            {
+                                <a href="@item.Link" class="btn btn-primary">Saiba mais</a>
+                            }
+                        </div>
+                    </div>
+                }
+            }
+
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#meucarrossel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#meucarrossel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+    </section>
+
+    <div class="mb-5"></div>
+</div>

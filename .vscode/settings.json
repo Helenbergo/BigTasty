@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin\\Release\\net7.0\\publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/18286baa-81e1-4d7e-9e76-c426ac3b4cbd/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/BigTasty"
+}

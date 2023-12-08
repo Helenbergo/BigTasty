@@ -1,0 +1,45 @@
+@model App.Models.Banner
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<div class="container">
+    <h1 class="fs-1" style="font-family: fantasy;">Deletar</h1>
+    <div>
+        <h4>Banner</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Imagem)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Imagem)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Titulo)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Titulo)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Subtitulo)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Subtitulo)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Link)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Link)
+            </dd>
+        </dl>
+
+        <form asp-action="Deletar">
+            <input type="hidden" asp-for="BannerId" />
+            <input type="submit" value="Deletar" class="btn btn-danger" /> |
+            <a asp-action="ListaBanners" class="text-dark">Voltar à lista</a>
+        </form>
+    </div>
+</div>
